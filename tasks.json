@@ -1,0 +1,142 @@
+{
+    "tasks": {
+        "not_sold": {
+            "actions": [
+                "buy",
+                "delete",
+                "edit",
+                "chat_with_publisher"
+            ]
+        },
+        "sold": {
+            "actions": [
+                "edit",
+                "delete",
+                "cancel_sale",
+                "enter_chat",
+                "complete",
+                "freeze_task"
+            ]
+        },
+        "pending_completion_confirmation": {
+            "actions": [
+                "confirm_completion",
+                "reject_completion_request",
+                "enter_chat",
+                "edit",
+                "delete"
+            ]
+        },
+        "completed": {
+            "actions": [
+                "chat",
+                "cancel_completion",
+                "delete"
+            ]
+        },
+        "urgent": {
+            "actions": [
+                "send_publication_notice_to_all",
+                "chat",
+                "edit",
+                "delete"
+            ]
+        },
+        "create_task": null,
+        "pricing_tasks": {
+            "actions": [
+                "task_type_price_on_sale",
+                "task_type_price_on_purchase"
+            ]
+        },
+        "task_publication_notifications": {
+            "actions": [
+                "approve",
+                "contact",
+                "reject",
+                "edit_and_publish",
+                "purchase"
+            ]
+        }
+    },
+    "users": {
+        "actions": [
+            "delete_account",
+            "temporary_suspend",
+            "reset_password",
+            "contact",
+            "grant_free_purchases",
+            "user_bills_with_history"
+        ],
+        "account_creation_notifications": {
+            "actions": [
+                "approve",
+                "reject",
+                "email_notification",
+                "create_account"
+            ]
+        }
+    },
+    "bills": {
+        "actions": [
+            "export_as_pdf",
+            "delete",
+            "edit",
+            "send",
+            "create_new_bill"
+        ]
+    },
+    "notifications": {
+        "actions": [
+            "view_notification_details",
+            "create_custom_notification_and_send_to_specific_accounts"
+        ]
+    },
+    "advertisements": {
+        "actions": [
+            "create_advertisement",
+            "delete",
+            "edit",
+            "temporarily_suspend_display",
+            "change_ad_display_duration"
+        ]
+    },
+    "chats": {
+        "actions": [
+            "view",
+            "delete",
+            "temporary_suspend",
+            "send_group_message"
+        ]
+    },
+    "archive": {
+        "sections": [
+            "bills",
+            "tasks",
+            "chats"
+        ]
+    },
+    "incoming_emails": {
+        "sections": [
+            "my_purchased_tasks",
+            "my_listed_tasks"
+        ],
+        "actions": [
+            "view",
+            "delete"
+        ]
+    },
+    "job_requests": {
+        "actions": [
+            "view",
+            "delete"
+        ]
+    },
+    "individual_tasks": {
+        "actions": [
+            "view",
+            "convert_to_normal_task",
+            "delete_to_archive"
+        ]
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "tasks": {
+        "not_sold": {
+            "actions": {
+                "buy": "Purchase a task that is listed but not yet sold.",
+                "delete": "Remove the task from the list.",
+                "edit": "Modify the details of the task.",
+                "chat_with_publisher": "Initiate a conversation with the task's publisher."
+            }
+        },
+        "sold": {
+            "actions": {
+                "edit": "Modify details of the task after it's sold.",
+                "delete": "Remove the sold task from the system.",
+                "cancel_sale": "Revert the sale of the task and make it available again.",
+                "enter_chat": "Join a conversation related to the sold task.",
+                "complete": "Mark the task as completed.",
+                "freeze_task": "Temporarily stop any actions on the task."
+            }
+        },
+        "pending_completion_confirmation": {
+            "actions": {
+                "confirm_completion": "Approve the task completion request.",
+                "reject_completion_request": "Deny the task completion request.",
+                "enter_chat": "Join a conversation regarding the completion of the task.",
+                "edit": "Modify the task details before confirming completion.",
+                "delete": "Remove the task from the list before completion."
+            }
+        },
+        "completed": {
+            "actions": {
+                "chat": "Start a conversation about the completed task.",
+                "cancel_completion": "Revert the task's completed status.",
+                "delete": "Remove the completed task from the list."
+            }
+        },
+        "urgent": {
+            "actions": {
+                "send_publication_notice_to_all": "Send a notification about the urgent task to all users.",
+                "chat": "Start a conversation regarding the urgent task.",
+                "edit": "Modify the urgent task details.",
+                "delete": "Remove the urgent task from the system."
+            }
+        },
+        "create_task": "Start the process of creating a new task.",
+        "pricing_tasks": {
+            "actions": {
+                "task_type_price_on_sale": "Set the price for a task when it is sold.",
+                "task_type_price_on_purchase": "Set the price for a task when it is purchased."
+            }
+        },
+        "task_publication_notifications": {
+            "actions": {
+                "approve": "Approve the task for publication.",
+                "contact": "Reach out to the task creator.",
+                "reject": "Reject the task for publication.",
+                "edit_and_publish": "Edit and then publish the task.",
+                "purchase": "Buy the published task."
+            }
+        }
+    },
+    "users": {
+        "actions": {
+            "delete_account": "Permanently remove the user's account.",
+            "temporary_suspend": "Temporarily disable the user's account.",
+            "reset_password": "Send a request to reset the user's password.",
+            "contact": "Initiate contact with the user.",
+            "grant_free_purchases": "Allow the user to make purchases for free.",
+            "user_bills_with_history": "View the user's billing history.",
+            "account_creation_notifications": {
+                "actions": {
+                    "approve": "Approve a new account registration.",
+                    "reject": "Reject a new account registration.",
+                    "email_notification": "Send an email notification regarding account creation.",
+                    "create_account": "Manually create a new user account."
+                }
+            }
+        }
+    },
+    "bills": {
+        "actions": {
+            "export_as_pdf": "Export the bill as a PDF document.",
+            "delete": "Remove a bill from the system.",
+            "edit": "Modify the details of an existing bill.",
+            "send": "Send the bill to the recipient.",
+            "create_new_bill": "Generate a new bill."
+        }
+    },
+    "notifications": {
+        "actions": {
+            "view_notification_details": "View the details of a specific notification.",
+            "create_custom_notification_and_send_to_specific_accounts": "Create a custom notification and send it to selected accounts."
+        }
+    },
+    "advertisements": {
+        "actions": {
+            "create_advertisement": "Create a new advertisement to be displayed.",
+            "delete": "Remove an advertisement.",
+            "edit": "Modify the details of an existing advertisement.",
+            "temporarily_suspend_display": "Pause the display of an advertisement temporarily.",
+            "change_ad_display_duration": "Adjust the duration for which an advertisement will be displayed."
+        }
+    },
+    "chats": {
+        "actions": {
+            "view": "View the chat conversation.",
+            "delete": "Remove a chat conversation.",
+            "temporary_suspend": "Pause chat functionality temporarily.",
+            "send_group_message": "Send a message to multiple recipients at once."
+        }
+    },
+    "archive": {
+        "sections": {
+            "bills": "Archived bills.",
+            "tasks": "Archived tasks.",
+            "chats": "Archived chat conversations."
+        }
+    },
+    "incoming_emails": {
+        "sections": {
+            "my_purchased_tasks": "Tasks that the user has purchased.",
+            "my_listed_tasks": "Tasks that the user has listed for sale."
+        },
+        "actions": {
+            "view": "View the email.",
+            "delete": "Delete the email."
+        }
+    },
+    "job_requests": {
+        "actions": {
+            "view": "View a job request.",
+            "delete": "Delete a job request."
+        }
+    },
+    "individual_tasks": {
+        "actions": {
+            "view": "View the individual task.",
+            "convert_to_normal_task": "Change the individual task to a normal task.",
+            "delete_to_archive": "Move the individual task to the archive."
+        }
+    }
+}
