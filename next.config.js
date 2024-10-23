@@ -1,10 +1,10 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   // output: 'export',
-//   // images: {
-//   //   unoptimized: true,
-//   // },
-//   // basePath: '/your-repo-name',
-// }
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: '/admin-dashboard',
+}
 
-// module.exports = nextConfig
+module.exports = nextConfig
